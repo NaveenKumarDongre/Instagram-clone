@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+nav {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav div {
+  margin-left: 0.5rem;
+}
+
+nav a {
+  margin-left: 0.6rem;
+}
+
+.nav-items a img {
+  width: 25px;
+}
+
+.profile-circle {
+  border-radius: 50%;
+}
+
+/* Stories Section */
+
+.story-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stories {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5rem;
+  border: 1px solid black;
+  margin: 1rem;
+  overflow: hidden;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.story img {
+  width: 5rem;
+  border-radius: 50%;
+}
+
+/* Post-section-Styles */
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border: 1px solid black;
+  /* padding: 1rem; */
+  margin: 1rem 0;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+
+  padding: 1rem 0;
+}
+
+.post-header img {
+  width: 2rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
